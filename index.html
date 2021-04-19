@@ -14,6 +14,7 @@
 <!--------- 02 Годинник -------->	
 
 <!-- ------------------------ -->
+<center><canvas id="canvas" height="120" width="120"></canvas></center>
   </HEAD>
   <BODY background="images/bg.jpg">
 	<table border="1" align="center" cellpadding="10" width="100%">
@@ -40,7 +41,11 @@
 		<tr>
 		    <td width="30%" valign="top">
 			<!--  02  Годинник -->
-		
+		<script src ="js/clock1.js"></script>
+<script>
+   window.onload = function(){
+   setInterval(clockPainting,1000);}
+   </script>
 			<!-- ------------- -->
 			<!-------  05  Меню Новини ----------->
 			 
@@ -80,7 +85,9 @@
 			
 			<td colspan="2" valign="middle" height="90" background="images/bg-2.jpg">
 				<!--   14  Автор    -->
-				<h3>Керівник проекту Римар Віктор</h3>
+				<h3>Керівник проекту Римар Віктор </h3>
+				<h3>Співрозробники: </h3>
+				<p font-size="72" >Шекула Ярослав, Філюк Влад</p>
 				<h4>Учасник проекту Васькевич Данило</h4>
 <<<<<<< HEAD
 				<h4>Учасник проекту Філюк Влад</h4>
@@ -88,6 +95,7 @@
 =======
 				<h4>Учасник проекту Лукянчук Михайло</h4>
 				<h4>Учасник проекту Новак Олег</h4>
+				<h4>Учасник проекту Киткайло Денис </h4>
 				<!--   ---------   -->
 >>>>>>> fc028bc769c26122e962c74f191a6c92aa83ef2f
 			</td>
